@@ -23,7 +23,7 @@ function App() {
           <Route path="/users">
             <UserList />
           </Route>
-          <Route path="/user/:userId">
+          <Route path="/user/:slug">
             <User />
           </Route>
           <Route path="/newUser">
